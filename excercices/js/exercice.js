@@ -74,3 +74,13 @@
 
 // var nb1 = 9
 // nb1 = nb1 - 5
+
+var nb1 = 10; 
+if (nb1 > 50) { // si "if" true :
+    console.log("nb1 est bien inférieur a 50");
+} else if (nb1 == 50) { // si "if" n`est pas true et que "else if" est true :
+    console.log("Je sui dans else if");
+} else { // sinon, si "if" n'est pas true et que "else if" n'est pas true non plus :
+    console.log("Je suis dans else");
+} // dans tous les cas js va executer l'(es) opération(s) suivante(s)
+console.log("Je suis sortie de la condition"); 
