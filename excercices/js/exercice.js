@@ -75,12 +75,47 @@
 // var nb1 = 9
 // nb1 = nb1 - 5
 
-var nb1 = 10; 
-if (nb1 > 50) { // si "if" true :
-    console.log("nb1 est bien inférieur a 50");
-} else if (nb1 == 50) { // si "if" n`est pas true et que "else if" est true :
-    console.log("Je sui dans else if");
-} else { // sinon, si "if" n'est pas true et que "else if" n'est pas true non plus :
-    console.log("Je suis dans else");
-} // dans tous les cas js va executer l'(es) opération(s) suivante(s)
-console.log("Je suis sortie de la condition"); 
+// var nb1 = 10;
+// if (nb1 > 50) { // si "if" true :
+//     console.log("nb1 est bien inférieur a 50");
+// } else if (nb1 == 50) { // si "if" n`est pas true et que "else if" est true :
+//     console.log("Je sui dans else if");
+// } else { // sinon, si "if" n'est pas true et que "else if" n'est pas true non plus :
+//     console.log("Je suis dans else");
+// } // dans tous les cas js va executer l'(es) opération(s) suivante(s)
+// console.log("Je suis sortie de la condition");
+ 
+
+//----------------------------------------------------------------------
+
+// Développez un programme en js :
+
+// 1- Saisir deux valeurs à partir de deux champs de formulaire
+// 	-une valeur en string et d'autre en numérique
+// 2- Vérifier le type des deux valeurs (si elles sont respectivement bien string et numérique)
+// 3- Déclarer(implanter) une fonction qui prend ces deux valeurs en paramètre et elle concatène les deux valeurs en question afin de nous afficher la phrase suivante :
+// 	"Je m'appelle ... et j'ai ... ans"
+    
+// // la syntaxe suivante effectue deux opérations distinctes en même temps:
+// // 1. elle exécute la fonction prédefinie de js (prompt) qui nous permet l'affichage d'une boîte de dialogue avec un champs de formulaire afin de saisir des valeurs string ou numérique
+// // 2. en déclarant une variable, nous pouvons stocker la valeur de retour de la fonction "prompt" saisie à partir du champs de formulaire
+// // conclusion: toutes les valeurs saisies seront stockées dans notre variable
+
+// var prenom = prompt("Saisir votre prénom :");
+// var age = prompt("Saisir votre âge :");
+
+// // console.log(prenom,age);
+
+// //2- vérification des valeurs
+// if (isNaN(prenom) && !isNaN(age)) {
+//     affichagePrenomAge(prenom, age);
+// }
+
+// function affichagePrenomAge(val1, val2) {
+//     var result = "Je m'appelle " + val1 + " et j'ai " + val2 + " ans.";
+//     document.write(result);
+// }
+
+//----------------------------------------------------------------------------
+
+
